@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QHomeGroup.Infrastructure", "QHomeGroup.Infrastructure\QHomeGroup.Infrastructure.csproj", "{8F9103C4-4F90-4F07-94F3-337EB1C67A18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QHomeGroup.Utilities", "QHomeGroup.Utilities\QHomeGroup.Utilities.csproj", "{F5BB50B5-2861-477E-9E0F-6D8DEE31D841}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QHomeGroup.Data", "QHomeGroup.Data\QHomeGroup.Data.csproj", "{64049FE2-87D0-4085-98E4-F42BA94EF447}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QHomeGroup.Data.EF", "QHomeGroup.Data.EF\QHomeGroup.Data.EF.csproj", "{DFD90691-F285-453F-A354-9EBFEE62568A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QHomeGroup.Application", "QHomeGroup.Application\QHomeGroup.Application.csproj", "{821FA96F-12E5-4E96-938D-00ECF978E79C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QHomeGroup.WebApi", "QHomeGroup.WebApi\QHomeGroup.WebApi.csproj", "{929D4458-AAED-47BE-963F-FD01533E20DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F9103C4-4F90-4F07-94F3-337EB1C67A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9103C4-4F90-4F07-94F3-337EB1C67A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9103C4-4F90-4F07-94F3-337EB1C67A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9103C4-4F90-4F07-94F3-337EB1C67A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BB50B5-2861-477E-9E0F-6D8DEE31D841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BB50B5-2861-477E-9E0F-6D8DEE31D841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BB50B5-2861-477E-9E0F-6D8DEE31D841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BB50B5-2861-477E-9E0F-6D8DEE31D841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64049FE2-87D0-4085-98E4-F42BA94EF447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64049FE2-87D0-4085-98E4-F42BA94EF447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64049FE2-87D0-4085-98E4-F42BA94EF447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64049FE2-87D0-4085-98E4-F42BA94EF447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD90691-F285-453F-A354-9EBFEE62568A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD90691-F285-453F-A354-9EBFEE62568A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD90691-F285-453F-A354-9EBFEE62568A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD90691-F285-453F-A354-9EBFEE62568A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821FA96F-12E5-4E96-938D-00ECF978E79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821FA96F-12E5-4E96-938D-00ECF978E79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821FA96F-12E5-4E96-938D-00ECF978E79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821FA96F-12E5-4E96-938D-00ECF978E79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929D4458-AAED-47BE-963F-FD01533E20DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929D4458-AAED-47BE-963F-FD01533E20DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929D4458-AAED-47BE-963F-FD01533E20DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929D4458-AAED-47BE-963F-FD01533E20DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80C7FC98-C7CF-4C1C-8670-33C6D5481939}
+	EndGlobalSection
+EndGlobal

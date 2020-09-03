@@ -1,0 +1,9 @@
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Utilities/bin/Debug/netcoreapp2.2/QHomeGroup.Utilities.deps.json
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Utilities/bin/Debug/netcoreapp2.2/QHomeGroup.Utilities.dll
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Utilities/bin/Debug/netcoreapp2.2/QHomeGroup.Utilities.pdb
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Utilities/obj/Debug/netcoreapp2.2/QHomeGroup.Utilities.csprojAssemblyReference.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Utilities/obj/Debug/netcoreapp2.2/QHomeGroup.Utilities.AssemblyInfoInputs.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Utilities/obj/Debug/netcoreapp2.2/QHomeGroup.Utilities.AssemblyInfo.cs
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Utilities/obj/Debug/netcoreapp2.2/QHomeGroup.Utilities.csproj.CoreCompileInputs.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Utilities/obj/Debug/netcoreapp2.2/QHomeGroup.Utilities.dll
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Utilities/obj/Debug/netcoreapp2.2/QHomeGroup.Utilities.pdb

@@ -1,0 +1,119 @@
+﻿@inject IViewLocalizer Localizer
+@model IList<IntroduceConfigDto>
+@{
+    ViewData["Title"] = Localizer["introduce"];
+}
+<!--Slide-->
+@await Component.InvokeAsync("Slide")
+<!--End Slide-->
+<div id="about" class="wow fadeInUp" data-wow-duration="1s">
+    <div class="container">
+        <div class="row">
+            <div class="about-list">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="about-item">
+                        <div class="abi-content">
+                            <h3 class="ac-heading">@Localizer["vision"]</h3>
+                            <div class="ac-desc">
+                                <div class="p-desc"><p class="">@Model.SingleOrDefault(i => i.Id == IntroduceKey.Vision).Description</p></div>
+                                <p><a class="ac-link" href="/tam-nhin-su-menh.html">@Localizer["readmore"]</a></p>
+                            </div>
+                        </div>
+                        <div class="abi-image">
+                            <i class="icon-about icon-ab-1"></i>
+                        </div>
+                        <div class="abi-button">
+                            <a href="/tam-nhin-su-menh.html"><i class="icon-ab-more"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="about-item">
+                        <div class="abi-content">
+                            <h3 class="ac-heading">@Localizer["corevalue"]</h3>
+                            <div class="ac-desc">
+                                <div class="p-desc"><p class="">@Model.SingleOrDefault(i => i.Id == IntroduceKey.CoreValue).Description</p></div>
+                                <p><a class="ac-link" href="/gia-tri-cot-loi.html">@Localizer["readmore"]</a></p>
+                            </div>
+                        </div>
+                        <div class="abi-image">
+                            <i class="icon-about icon-ab-2"></i>
+                        </div>
+                        <div class="abi-button">
+                            <a href="/gia-tri-cot-loi.html"><i class="icon-ab-more"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="about-item">
+                        <div class="abi-content">
+                            <h3 class="ac-heading">@Localizer["formation"]</h3>
+                            <div class="ac-desc">
+                                <div class="p-desc"><p class="">@Model.SingleOrDefault(i => i.Id == IntroduceKey.HistoryBegin).Description</p></div>
+                                <p><a class="ac-link" href="/lich-su-hinh-thanh.html">@Localizer["readmore"]</a></p>
+                            </div>
+                        </div>
+                        <div class="abi-image">
+                            <i class="icon-about icon-ab-3"></i>
+                        </div>
+                        <div class="abi-button">
+                            <a href="/lich-su-hinh-thanh.html"><i class="icon-ab-more"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="about-item">
+                        <div class="abi-content">
+                            <h3 class="ac-heading">@Localizer["servicequality"]</h3>
+                            <div class="ac-desc">
+                                <div class="p-desc"><p class="">@Model.SingleOrDefault(i => i.Id == IntroduceKey.ServiceQuality).Description</p></div>
+                                <p><a class="ac-link" href="/chat-luong-dich-vu.html">@Localizer["readmore"]</a></p>
+                            </div>
+                        </div>
+                        <div class="abi-image">
+                            <i class="icon-about icon-ab-4"></i>
+                        </div>
+                        <div class="abi-button">
+                            <a href="/chat-luong-dich-vu.html"><i class="icon-ab-more"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="about-item">
+                        <div class="abi-content">
+                            <h3 class="ac-heading">@Localizer["factory"]</h3>
+                            <div class="ac-desc">
+                                <div class="p-desc"><p class="">@Model.SingleOrDefault(i => i.Id == IntroduceKey.FactoryTechnology).Description</p></div>
+                                <p><a class="ac-link" href="/nha-may-cong-nghe.html">@Localizer["readmore"]</a></p>
+                            </div>
+                        </div>
+                        <div class="abi-image">
+                            <i class="icon-about icon-ab-5"></i>
+                        </div>
+                        <div class="abi-button">
+                            <a href="/nha-may-cong-nghe.html"><i class="icon-ab-more"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="about-item">
+                        <div class="abi-content">
+                            <h3 class="ac-heading">@Localizer["human"]</h3>
+                            <div class="ac-desc">
+                                <div class="p-desc"><p class="">@Model.SingleOrDefault(i => i.Id == IntroduceKey.HumanResource).Description</p></div>
+                                <p><a class="ac-link" href="/nguon-nhan-luc.html">@Localizer["readmore"]</a></p>
+                            </div>
+                        </div>
+                        <div class="abi-image">
+                            <i class="icon-about icon-ab-6"></i>
+                        </div>
+                        <div class="abi-button">
+                            <a href="/nguon-nhan-luc.html"><i class="icon-ab-more"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END -->

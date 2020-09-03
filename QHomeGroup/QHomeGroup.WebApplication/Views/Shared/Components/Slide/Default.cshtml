@@ -1,0 +1,64 @@
+﻿@using QHomeGroup.Data.Entities.Projects
+@using QHomeGroup.Utilities.Helpers
+@model List<QHomeGroup.Application.Common.Slides.ViewModels.SlideViewModel>
+
+<div id="carousel-id" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+        <li data-target="#carousel-id" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner">
+        @for (var i = 0; i < Model.Count; i++)
+        {
+            if (Model[i].SlideOption == SlideOption.Image)
+            {
+                if (i == 0)
+                {
+                    <div class="item active">
+                        <div class="overlay-bg" style="background-color : @(String.IsNullOrEmpty(Model[i].Name) && String.IsNullOrEmpty(Model[i].Description) ? "transparent" : "rgba(43,41,37,0.72)")"></div>
+                        <img alt="First slide" style="width: 1903px;height: 638px;" src="@Model[i].Link">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1 style="cursor: pointer" onclick="window.open('https://qhomegroup.com/gioi-thieu.html')">@Model[0].Name</h1>
+                                <p>@Model[0].Description</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="item">
+                        <div class="overlay-bg" style="background-color : @(String.IsNullOrEmpty(Model[i].Name) && String.IsNullOrEmpty(Model[i].Description) ? "transparent" : "rgba(43,41,37,0.72)")"></div>
+                        <img alt="First slide" style="width: 1903px;height: 638px;" src="@Model[i].Link">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1 style="cursor: pointer" onclick="window.open('https://qhomegroup.com/gioi-thieu.html')">@Model[0].Name</h1>
+                                <p>@Model[0].Description</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            if (Model[i].SlideOption == SlideOption.Video)
+            {
+                if (i == 0)
+                {
+                    <div class="item active">
+                        @{ var url = "https://www.youtube.com/embed/" + ClipboardFusionHelper.GetEmbededId(Model[i].Link) + "?autoplay=1"; }
+                        <iframe width="100%" height="638" src="@url" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                }
+                else
+                {
+                    <div class="item">
+                        @{ var url = "https://www.youtube.com/embed/" + ClipboardFusionHelper.GetEmbededId(Model[i].Link) + "?autoplay=1"; }
+                        <iframe width="100%" height="638" src="@url" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                }
+            }
+        }
+    </div>
+    <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="icon-left-control icon-controls"></span></a>
+    <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="icon-right-control icon-controls"></span></a>
+</div>

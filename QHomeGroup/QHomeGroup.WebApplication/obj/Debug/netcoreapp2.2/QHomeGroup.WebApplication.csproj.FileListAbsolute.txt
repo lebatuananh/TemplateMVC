@@ -1,0 +1,11 @@
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.WebApplication/obj/Debug/netcoreapp2.2/QHomeGroup.WebApplication.csprojAssemblyReference.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.WebApplication/obj/Debug/netcoreapp2.2/QHomeGroup.WebApplication.AssemblyInfoInputs.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.WebApplication/obj/Debug/netcoreapp2.2/QHomeGroup.WebApplication.AssemblyInfo.cs
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.WebApplication/obj/Debug/netcoreapp2.2/QHomeGroup.WebApplication.csproj.CoreCompileInputs.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.WebApplication/obj/Debug/netcoreapp2.2/QHomeGroup.WebApplication.RazorAssemblyInfo.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.WebApplication/obj/Debug/netcoreapp2.2/QHomeGroup.WebApplication.RazorAssemblyInfo.cs
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.WebApplication/obj/Debug/netcoreapp2.2/QHomeGroup.WebApplication.TagHelpers.input.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.WebApplication/obj/Debug/netcoreapp2.2/QHomeGroup.WebApplication.TagHelpers.output.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.WebApplication/obj/Debug/netcoreapp2.2/QHomeGroup.WebApplication.RazorCoreGenerate.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.WebApplication/obj/Debug/netcoreapp2.2/QHomeGroup.WebApplication.dll
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.WebApplication/obj/Debug/netcoreapp2.2/QHomeGroup.WebApplication.pdb

@@ -1,0 +1,16 @@
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/bin/Debug/netcoreapp2.2/QHomeGroup.Application.deps.json
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/bin/Debug/netcoreapp2.2/QHomeGroup.Application.dll
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/bin/Debug/netcoreapp2.2/QHomeGroup.Application.pdb
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/bin/Debug/netcoreapp2.2/QHomeGroup.Data.dll
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/bin/Debug/netcoreapp2.2/QHomeGroup.Infrastructure.dll
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/bin/Debug/netcoreapp2.2/QHomeGroup.Utilities.dll
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/bin/Debug/netcoreapp2.2/QHomeGroup.Data.pdb
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/bin/Debug/netcoreapp2.2/QHomeGroup.Utilities.pdb
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/bin/Debug/netcoreapp2.2/QHomeGroup.Infrastructure.pdb
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/obj/Debug/netcoreapp2.2/QHomeGroup.Application.csprojAssemblyReference.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/obj/Debug/netcoreapp2.2/QHomeGroup.Application.AssemblyInfoInputs.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/obj/Debug/netcoreapp2.2/QHomeGroup.Application.AssemblyInfo.cs
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/obj/Debug/netcoreapp2.2/QHomeGroup.Application.csproj.CoreCompileInputs.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/obj/Debug/netcoreapp2.2/QHomeGroup.Application.csproj.CopyComplete
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/obj/Debug/netcoreapp2.2/QHomeGroup.Application.dll
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/obj/Debug/netcoreapp2.2/QHomeGroup.Application.pdb

@@ -1,0 +1,67 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/QHomeGroup.Application.csproj",
+    "projectName": "QHomeGroup.Application",
+    "projectPath": "/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/QHomeGroup.Application.csproj",
+    "outputPath": "/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Application/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Data/QHomeGroup.Data.csproj": {
+            "projectPath": "/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Data/QHomeGroup.Data.csproj"
+          },
+          "/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Utilities/QHomeGroup.Utilities.csproj": {
+            "projectPath": "/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Utilities/QHomeGroup.Utilities.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "EPPlus": {
+          "target": "Package",
+          "version": "[4.5.3.1, )"
+        },
+        "FirebaseAdmin": {
+          "target": "Package",
+          "version": "[1.10.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Infrastructure/bin/Debug/netcoreapp2.2/QHomeGroup.Infrastructure.deps.json
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Infrastructure/bin/Debug/netcoreapp2.2/QHomeGroup.Infrastructure.dll
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Infrastructure/bin/Debug/netcoreapp2.2/QHomeGroup.Infrastructure.pdb
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Infrastructure/bin/Debug/netcoreapp2.2/QHomeGroup.Utilities.dll
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Infrastructure/bin/Debug/netcoreapp2.2/QHomeGroup.Utilities.pdb
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Infrastructure/obj/Debug/netcoreapp2.2/QHomeGroup.Infrastructure.csprojAssemblyReference.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Infrastructure/obj/Debug/netcoreapp2.2/QHomeGroup.Infrastructure.AssemblyInfoInputs.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Infrastructure/obj/Debug/netcoreapp2.2/QHomeGroup.Infrastructure.AssemblyInfo.cs
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Infrastructure/obj/Debug/netcoreapp2.2/QHomeGroup.Infrastructure.csproj.CoreCompileInputs.cache
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Infrastructure/obj/Debug/netcoreapp2.2/QHomeGroup.Infrastructure.csproj.CopyComplete
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Infrastructure/obj/Debug/netcoreapp2.2/QHomeGroup.Infrastructure.dll
+/home/lebatuananh/Documents/Template/TemplateMVC/QHomeGroup/QHomeGroup.Infrastructure/obj/Debug/netcoreapp2.2/QHomeGroup.Infrastructure.pdb

@@ -1,0 +1,72 @@
+﻿@inject IViewLocalizer Localizer
+@{
+    var returnUrl = string.IsNullOrEmpty(Context.Request.Path) ? "~/" : $"~{Context.Request.Path.Value}";
+    var rqf = Context.Features.Get<IRequestCultureFeature>();
+    var culture = rqf.RequestCulture.Culture;
+}
+<div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class=" wow fadeInUp" data-wow-duration="1s">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img src="images/logosvg.svg" alt=""></a>
+                @*<a class="navbar-brand" href="/"><img src="images/Untitled-2.svg" alt=""></a>*@
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav-top">
+                    <li><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
+                    <li><a href="#"><i class="icon-facebook"></i>Facebook</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-language"></i>@(culture.ToString() == "vi" ? "Tiếng Việt" : "English") <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-action="SetLanguage" asp-controller="Home" asp-route-returnUrl="@returnUrl" asp-route-culture="vi"><i class="icon-language"></i>Tiếng Việt</a></li>
+                            <li><a asp-action="SetLanguage" asp-controller="Home" asp-route-returnUrl="@returnUrl" asp-route-culture="en"><i class="icon-language"></i>English</a></li>
+                        </ul>
+                   </li>                  
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class=""><a href="/" class="active"><i class="icon-home"></i></a></li>
+                    <li class="dropdown">
+                        <a href="gioi-thieu.html" class="dropdown-toggle ">@Localizer["introduce"]<b class=""></b></a>
+                        <ul class="dropdown-menu menu1">
+                            <li><a href="loi-ngo.html">@Localizer["preface"]</a></li>
+                            <li><a href="tam-nhin-su-menh.html">@Localizer["vision"]</a></li>
+                            <li><a href="gia-tri-cot-loi.html">@Localizer["corevalue"]</a></li>
+                            <li><a href="lich-su-hinh-thanh.html">@Localizer["formation"]</a></li>
+                            <li><a href="chat-luong-dich-vu.html">@Localizer["servicequality"]</a></li>
+                            <li><a href="nha-may-cong-nghe.html">@Localizer["factory"]</a></li>
+                            <li><a href="nguon-nhan-luc.html">@Localizer["human"]</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript::;" class="dropdown-toggle ">@Localizer["service"]<b class=""></b></a>
+                        <ul class="dropdown-menu menu1">
+                            <li><a href="dich-vu-@(ServiceType.ArchitecturalDesign + ".html")">@Localizer["architectural"]</a></li>
+                            <li><a href="dich-vu-@(ServiceType.InteriorDesign + ".html" )">@Localizer["interiordesign"]</a></li>
+                            <li><a href="dich-vu-@(ServiceType.InteriorConstruction + ".html")">@Localizer["interiorconstruction"]</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="du-an.3.html" class="dropdown-toggle">@Localizer["project"] <b class=""></b></a>
+                        <ul class="dropdown-menu menu1">
+                            <li><a href="du-an.0.html">QHOME CLASSIC</a></li>
+                            <li><a href="du-an.1.html">QHOME MODERN</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="tin-tuc.html">@Localizer["news"]</a></li>
+                    <li><a class="" href="lien-he.html">@Localizer["contact"]</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+</div>
+
